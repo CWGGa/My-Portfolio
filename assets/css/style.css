@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+body {
+	background: url(../img/box-pattern.png) repeat #3c3c3c;
+}
+
+.body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info-row {
+	padding-top: 5px;
+	padding-bottom: 5px;
+    font-size: 12.5px;
+    text-align: left;
+}
+
+.info-row div {
+	word-break: break-word;
+}
+
+h3,h2,h4 {
+	font-family: 'Bebas Neue';
+}
+
+.bold {
+	font-weight:bold;
+}
+
+.footer {
+	text-align: center;
+	padding-top: 35px;
+}
+
+.qwertyuioBox {
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+}
+
+.qwertyuioHeyHakdog {
+  text-align: center;
+  display: none;
+}
+
+.skill {
+
+}
+
+.skill .skill-name {
+	font-size: 12px;
+	text-align: left;
+}
+
+.schooldes {
+    font-size: 13px;
+}
+
+i{
+    margin-right: 10px;
+}
+
+em{
+    color: #868686;
+    font-size: 13px;
+}
+
+.svgfile{
+    fill: aliceblue;
+}
+
+path{
+    fill: orange;
+}
+
+.svgfile{
+    background-color: white;
+    border-radius: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  hr{
+    border-top: 1px solid #4d4d4d;
+  }
